@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from './repositories/firebase/config';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './Components/navbar/Navbar';
 import TodoList from './views/todolist/TodoList';
 import ProfilePage from './pages/profile/ProfilePage';
 import LoginComponent from './views/login/LoginComponent';
